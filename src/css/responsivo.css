@@ -32,3 +32,37 @@
         height: 50px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 675px) and (max-width: 888px) {
+    .main {
+        display: flex;
+        width: 90%;
+    }
+
+    .img {
+        height: 100%;
+        width: 30%;
+        background-size: cover;
+        border-radius: 25px 0 0 25px;
+    }
+
+    .login {
+        width: 70%;
+    }
+
+    .login h1 {
+        margin: 15px auto 5px;
+    }
+
+    .login p {
+        margin: 5px auto;
+    }
+
+    form a {
+        padding: 5px 0;
+    }
+
+    form label, form input[type=submit], form a {
+        height: 35px;
+    }
+}
