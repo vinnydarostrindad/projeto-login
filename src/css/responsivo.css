@@ -4,7 +4,8 @@
     .main {
         display: flex;
         width: 85%;
-        height: 400px;
+        max-width: 1300px;
+        height: 450px;
     }
 
     .img {
@@ -16,6 +17,7 @@
 
     .login {
         width: 55%;
+        height: 100%;
     }
 
     .login h1 {
@@ -33,7 +35,7 @@
     }
 }
 
-@media screen and (orientation: landscape) and (max-height: 675px) and (max-width: 888px) {
+@media screen and (orientation: landscape) and (max-height: 380px) and (max-width: 888px) {
     .main {
         display: flex;
         width: 90%;
@@ -48,6 +50,7 @@
 
     .login {
         width: 70%;
+        height: 100%;
     }
 
     .login h1 {
